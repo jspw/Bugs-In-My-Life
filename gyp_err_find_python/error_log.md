@@ -1,4 +1,4 @@
-```                                   
+```
  => [internal] load build definition from Dockerfile                                                                                                                                  0.0s
  => => transferring dockerfile: 218B                                                                                                                                                  0.0s
  => [internal] load .dockerignore                                                                                                                                                     0.0s

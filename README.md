@@ -11,6 +11,7 @@ I will add bugs and solutions here that I have faced in my Software Engineering 
 ##### How to produce
 
 [sample dockerfile and package.json file](./gyp_err_find_python/)
+Also can check the log : [termianl log](gyp_err_find_python/error_log.md)
 
 ##### Solution
 
@@ -19,5 +20,5 @@ add `RUN apk add --no-cache python3 py3-pip make g++` before npm install command
 ##### Explanation
 
 - [Document how to use alpine with dependencies that rely on node-gyp](https://github.com/nodejs/docker-node/issues/282)
-  
 - [docker-alpine-usage](https://github.com/gliderlabs/docker-alpine/blob/master/docs/usage.md)
+- [stackoverflow](https://stackoverflow.com/questions/54428608/docker-node-alpine-image-build-fails-on-node-gyp)
