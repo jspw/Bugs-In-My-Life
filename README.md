@@ -4,7 +4,7 @@ I will add bugs and solutions here that I have faced in my Software Engineering 
 
 ## Docker
 
-#### Problem | Error
+#### Problem Or Error
 
 `gyp ERR! find Python` on **node alpine** image (specially on `node:14-alpine`)
 
